@@ -29,7 +29,7 @@ while userOn:
         result = operations[choice](n1,n2)
         print(f"\nThe result is: {result}")
     elif continar == "quit":
-        break
+        userOn = False
     else:
         print("\nInvalid choice. Try again.\n")
 
@@ -43,6 +43,6 @@ while userOn:
         n1 = result
         firstNumberExist = True
     elif continar == "quit":
-        break
+        userOn = False
     else:
         print("Invalid choice. Try again.\n")
